@@ -31,7 +31,7 @@ export default async function HomePage() {
           <span className="text-gradient">Día</span>
         </h1>
         <p className="text-gray-400 mt-1 text-sm">
-          {matches.length} partidos · {leagueCount} ligas · Mercado 1X2
+          {matches.length} partidos · {leagueCount} liga · Mercado 1X2
         </p>
       </div>
 
