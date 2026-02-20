@@ -2,6 +2,7 @@
 import { useBetsStore } from "@/store/bets";
 import { BetCard } from "../components/BetCard";
 import type { Match } from "@/types";
+import Link from "next/link";
 
 interface Props {
   betsMatched: Match[];
@@ -27,9 +28,9 @@ export function ProfileClient({ betsMatched }: Props) {
         <div className="text-6xl mb-4">🎯</div>
         <h2 className="text-xl font-bold text-white mb-2">Sin apuestas aún</h2>
         <p className="text-gray-400 text-sm mb-6">Ve a la pantalla de eventos y realiza tu primera apuesta</p>
-        <a href="/" className="px-6 py-3 bg-brand text-black font-bold rounded-xl hover:bg-brand-dark transition-all">
+        <Link href="/" className="px-6 py-3 bg-brand text-black font-bold rounded-xl hover:bg-brand-dark transition-all">
           Ver eventos
-        </a>
+        </Link>
       </div>
     );
   }
