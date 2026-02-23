@@ -2,7 +2,7 @@
 
 ```bash
 # 1. Clonar
-git clone <repo-url>
+git clone https://github.com/AndyYupanqui/betday-lite
 cd betday-lite
 
 # 2. Instalar dependencias
