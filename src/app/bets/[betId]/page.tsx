@@ -149,13 +149,13 @@ export default async function BetDetailPage({ params }: PageProps) {
             href="/profile"
             className="flex-1 py-3 rounded-xl border border-border text-gray-400 font-semibold text-sm text-center hover:text-white hover:border-gray-500 transition-all"
           >
-            ← Mis Apuestas
+            Mis Apuestas
           </Link>
           <Link
             href="/"
             className="flex-1 py-3 rounded-xl bg-brand text-black font-bold text-sm text-center hover:bg-brand-dark transition-all"
           >
-            Ver más eventos →
+            Ver más eventos
           </Link>
         </div>
       </div>
